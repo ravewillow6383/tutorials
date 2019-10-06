@@ -12,3 +12,4 @@ Python’s zip() function creates an iterator that will aggregate elements from 
 
   * How to use the Python zip() function for parallel iteration
   * How to create dictionaries on the fly using zip()
+  * Python’s zip() function is defined as zip(*iterables)
