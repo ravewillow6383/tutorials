@@ -4,7 +4,7 @@
 (Zip Repository)[https://github.com/ravewillow6383/tutorials/tree/master/zip]
 
 
-(log Repository)[https://github.com/ravewillow6383/tutorials/tree/master/logs]
+(Logs Repository)[https://github.com/ravewillow6383/tutorials/tree/master/logs]
 
 
 ### Zip
