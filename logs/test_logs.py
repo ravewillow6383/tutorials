@@ -22,3 +22,9 @@ def test_all_alpha():
     logs = ["g1 act car","ab1 off key dog","a8 act zoo"]
 
     assert reorder_logs(logs) == ["g1 act car","a8 act zoo","ab1 off key dog"]
+
+def test_all_digits():
+    logs = ["a1 9 2 3 1","zo4 4 7"]
+
+    assert reorder_logs(logs) == ["a1 9 2 3 1","zo4 4 7"]
+
