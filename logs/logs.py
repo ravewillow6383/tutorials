@@ -7,12 +7,10 @@ def reorder_logs(logs):
             digs.append(item)
         else:
             alpha.append(item)
-            alphaList = sorted(sorted(alpha), key=lambda n: n.split()[1])
+            j = len(alpha)
+            alphaList = sorted(sorted(alpha), key=lambda n: n.split()[1:j])
 
-    logs.clear()
-    logs = alphaList + digs
-    print(logs)
+    if len(logs):
+        logs = alphaList + digs
+
     return logs
-
-logs = ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
-reorder_logs(logs)
