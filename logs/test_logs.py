@@ -17,3 +17,8 @@ def test_empty_list():
     logs = []
 
     assert reorder_logs(logs) == []
+
+def test_all_alpha():
+    logs = ["g1 act car","ab1 off key dog","a8 act zoo"]
+
+    assert reorder_logs(logs) == ["g1 act car","a8 act zoo","ab1 off key dog"]
