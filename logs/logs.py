@@ -11,11 +11,6 @@ def reorder_logs(logs):
             alphaList = sorted(sorted(alpha), key=lambda n: n.split()[1:j])
 
     if len(logs):
-        if len(alphaList) > 0 and len(digs) > 0:
-            logs = alphaList + digs
-        elif len(alphaList):
-            logs = alphaList
-        elif len(digs):
-            logs = digs
+        logs = alphaList + digs
 
     return logs
